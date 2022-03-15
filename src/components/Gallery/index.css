@@ -7,15 +7,15 @@
   height: 100vh;
   width: 100%;
 }
-.galley-container {
+.gallery-container {
   padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
 }
 .active-image {
-  width: 100%;
+  width: 65vw;
   height: 60vh;
 }
 .heading {
@@ -27,9 +27,9 @@
   font-size: 18px;
 }
 .thumbnail-container {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
 }

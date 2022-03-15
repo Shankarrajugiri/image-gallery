@@ -1,14 +1,16 @@
 /* Write your code here. */
-.thumbnail {
+.thumbnail-image {
   height: 60px;
   width: 60px;
-}
-.thumbnail-image {
-  height: 100%;
-  width: 100%;
 }
 .image-button {
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .thumbnail-image {
+    height: 30px;
+    width: 30px;
+  }
 }
