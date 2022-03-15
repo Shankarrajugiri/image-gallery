@@ -1,0 +1,14 @@
+/* Write your code here. */
+.thumbnail {
+  height: 60px;
+  width: 60px;
+}
+.thumbnail-image {
+  height: 100%;
+  width: 100%;
+}
+.image-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
